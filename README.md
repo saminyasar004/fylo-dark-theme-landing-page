@@ -16,4 +16,4 @@
 - CSS
 - SCSS
 
-## Live Preview:
+## Live Preview: https://fyloo.vercel.app/
