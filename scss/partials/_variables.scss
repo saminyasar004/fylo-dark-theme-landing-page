@@ -1,0 +1,56 @@
+/* Color variables */
+
+// primary background color
+$hero-bg-dark-blue: hsl(217, 28%, 15%);
+$body-bg-dark-blue: hsl(218, 28%, 13%);
+$footer-bg-dark-blue: hsl(216, 53%, 9%);
+$testimonial-bg-dark-blue: hsl(219, 30%, 18%);
+
+// base color
+$cyan: hsl(176, 68%, 64%);
+$blue: hsl(198, 60%, 50%);
+$light-red: hsl(0, 100%, 63%);
+$white: hsl(0, 0%, 100%);
+$grey: #a7adbb;
+
+// font family
+$raleway: "Raleway", sans-serif;
+$open-sans: "Open Sans", sans-serif;
+$default-font-family: $open-sans;
+
+// typography
+$html-font-size: 62.5%;
+$default-font-size: 1.4rem;
+$navigation-menu-font-size: 1.4rem;
+$navigation-menu-font-weight: 500;
+$hero-heading-font-size: 2.5rem;
+$hero-heading-font-weight: 700;
+$para-font-size: 1.4rem;
+$para-font-weight: 400;
+$para-line-height: 1.7;
+
+// animation
+$transition: all 0.3s;
+
+// media queries
+$xsmall: (
+  "min": 320px,
+  "max": 480px,
+);
+$small: (
+  "min": 481px,
+  "max": 768px,
+);
+$medium: (
+  "min": 769px,
+  "max": 1024px,
+);
+$large: (
+  "min": 1025px,
+  "max": 1200px,
+);
+$xlarge: (
+  "min": 1201px,
+  "max": 1400px,
+);
+$row-width-gap: 6rem;

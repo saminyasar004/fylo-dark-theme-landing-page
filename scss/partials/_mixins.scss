@@ -1,0 +1,61 @@
+/* Dependencies */
+
+@import "variables";
+
+/* Re usable components */
+
+.row {
+  width: 100rem;
+  margin: auto;
+}
+
+.btn {
+  color: $white;
+  font: {
+    size: 1.4rem;
+    weight: 500;
+  }
+  cursor: pointer;
+  padding: 1rem 6rem;
+  border-radius: 3rem;
+  text-transform: capitalize;
+  background: linear-gradient(90deg, $cyan 5%, $blue);
+
+  &:hover {
+    background: $cyan;
+  }
+}
+
+.btn-hero {
+  @extend .btn;
+}
+
+.btn-stay-productive {
+  color: $cyan;
+  font: {
+    size: 1.3rem;
+    weight: 500;
+  }
+  padding: 0.5rem 0rem;
+  text-transform: capitalize;
+  background: transparent;
+  border-bottom: 0.1rem solid $cyan;
+  transition: $transition;
+
+  &:hover {
+    color: $white;
+    border-color: $white;
+  }
+}
+
+.btn-submit {
+  @extend .btn;
+}
+
+/* Mixins for media queries */
+
+@mixin media-query($size) {
+  @media screen and (min-width: map-get($size, $key: "min")) and (max-width: map-get($size, $key: "max")) {
+    @content;
+  }
+}

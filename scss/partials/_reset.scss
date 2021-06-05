@@ -1,0 +1,98 @@
+/* Dependencies */
+
+@import "variables";
+
+/* Basic styles */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+::-webkit-scrollbar {
+  width: 1.1rem;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 0rem;
+  height: 12rem;
+  background: linear-gradient(180deg, #65e2d9 5%, #339ecc);
+  border-radius: 1rem;
+}
+
+html {
+  font: {
+    size: $html-font-size;
+  }
+  scroll-behavior: smooth;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  cursor: default;
+  font: {
+    family: $default-font-family;
+    size: $default-font-size;
+  }
+  overflow-x: hidden;
+  background: $body-bg-dark-blue;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $white;
+  font: {
+    family: $raleway;
+  }
+}
+
+h1 {
+  font: {
+    size: $hero-heading-font-size;
+    weight: $hero-heading-font-weight;
+  }
+}
+
+@for $i from 2 through 6 {
+  h#{$i} {
+    font: {
+      size: ($hero-heading-font-size - ($i/10));
+      weight: ($hero-heading-font-weight - ($i - 1) * 100);
+    }
+  }
+}
+
+p,
+span {
+  color: $grey;
+  font: {
+    family: $open-sans;
+    size: $para-font-size;
+    weight: $para-font-weight;
+  }
+  line-height: $para-line-height;
+}
+
+a {
+  text-decoration: none;
+  color: $white;
+  font: {
+    family: $raleway;
+  }
+}
+
+button,
+input {
+  border: none;
+  outline: none;
+}
