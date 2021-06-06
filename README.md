@@ -1,3 +1,4 @@
+<p align="center">
 # Fylo - Dark Theme Landing Page 👋
 
 [![Website](https://img.shields.io/website?label=saminyasar%20🚀&name=hello&style=flat&url=https://saminyasar.netlify.app/)](https://saminyasar.netlify.app/)
@@ -7,7 +8,8 @@
 [![Twitter Follow](https://img.shields.io/badge/Twitter-Follow-brightgreen)](https://twitter.com/SaminYa01891649/)
 [![Stack Overflow](https://img.shields.io/badge/Stack%20Overflow-Questions-brightgreen)](https://stackoverflow.com/users/14735945/samin-yasar)
 [![Github Follow](https://img.shields.io/github/followers/saminyasar004?label=saminyasar004&style=social)](https://github.com/saminyasar004/)
-
+</p>
+  
 ![Design preview for the Fylo landing page with dark theme and features grid](./design/desktop-design.jpg)
 
 ## Languages I used:
